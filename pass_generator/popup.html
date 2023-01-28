@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="popup.css" />
+
+    <title>PassGen</title>
+  <body>
+    <div class="box">
+      <h1><span class="colored-text1">Phrase</span> To <span class="colored-text2">Password</span></h1>
+      <p>Generate strong passwords from any phrase of your choice. </p>
+
+      <input type="text" placeholder="What's your phrase" id="userInput" />
+
+      <input
+        type="text"
+        name=""
+        id="password"
+        readonly
+      />
+      <table class="buttons">
+        <th>
+          <a id="generate" class="btn1">
+            <img
+            src="assets/generate.gif"
+            style="width:50px;height:50px">
+            </img>
+          </div>
+        </th>
+        <th>
+          <a id="copy" class="btn2"
+            ><img
+              src="assets/copy.gif"
+              trigger="hover"
+              style="width: 50px; height: 50px"
+            >
+            </img
+          ></a>
+        </th>
+      </table>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
